@@ -13,6 +13,8 @@
 		4D3C43E426EBE2A700F54728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3C43E226EBE2A700F54728 /* Main.storyboard */; };
 		4D3C43E626EBE2A800F54728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3C43E526EBE2A800F54728 /* Assets.xcassets */; };
 		4D3C43E926EBE2A800F54728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3C43E726EBE2A800F54728 /* LaunchScreen.storyboard */; };
+		4DBC78DA26F0DA8F00CC01F7 /* Memorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC78D926F0DA8F00CC01F7 /* Memorize.swift */; };
+		4DBC78DC26F0DE0300CC01F7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC78DB26F0DE0300CC01F7 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4D3C43E526EBE2A800F54728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D3C43E826EBE2A800F54728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D3C43EA26EBE2A800F54728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DBC78D926F0DA8F00CC01F7 /* Memorize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memorize.swift; sourceTree = "<group>"; };
+		4DBC78DB26F0DE0300CC01F7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		4D3C43DB26EBE2A700F54728 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
-				4D3C43DC26EBE2A700F54728 /* AppDelegate.swift */,
+				4D3C43F026EBE5F800F54728 /* Supporting Files */,
 				4D3C43DE26EBE2A700F54728 /* SceneDelegate.swift */,
 				4D3C43E026EBE2A700F54728 /* ViewController.swift */,
+				4DBC78D926F0DA8F00CC01F7 /* Memorize.swift */,
+				4DBC78DB26F0DE0300CC01F7 /* Card.swift */,
 				4D3C43E226EBE2A700F54728 /* Main.storyboard */,
-				4D3C43E526EBE2A800F54728 /* Assets.xcassets */,
-				4D3C43E726EBE2A800F54728 /* LaunchScreen.storyboard */,
 				4D3C43EA26EBE2A800F54728 /* Info.plist */,
 			);
 			path = Memorize;
+			sourceTree = "<group>";
+		};
+		4D3C43F026EBE5F800F54728 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D3C43DC26EBE2A700F54728 /* AppDelegate.swift */,
+				4D3C43E526EBE2A800F54728 /* Assets.xcassets */,
+				4D3C43E726EBE2A800F54728 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D3C43E126EBE2A700F54728 /* ViewController.swift in Sources */,
+				4DBC78DA26F0DA8F00CC01F7 /* Memorize.swift in Sources */,
+				4DBC78DC26F0DE0300CC01F7 /* Card.swift in Sources */,
 				4D3C43DD26EBE2A700F54728 /* AppDelegate.swift in Sources */,
 				4D3C43DF26EBE2A700F54728 /* SceneDelegate.swift in Sources */,
 			);
